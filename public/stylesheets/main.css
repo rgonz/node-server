@@ -12,11 +12,20 @@ body {
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
+.navbar .nav > li > a {
+    font-size: 1.3em;
+    text-decoration: none;
+    text-shadow: 0;
+    color:  #000000;
+}
+
+ul.nav a:hover { color: #c91ede !important; }
+
 .my-brand {
-  width: 150px;
-  height: 40px;
+  width: 200px;
+  height: 30px;
   position: relative;
-  top: -8px;
+  top: -3px;
 }
 
 .navbar {
@@ -87,19 +96,28 @@ body {
 
 /* Center align the text within the three columns below the carousel */
 .marketing .col-lg-4 {
-  /*margin-bottom: 20px; */
+  margin-top: 20px;
+  margin-bottom: 10px;
   text-align: center;
 }
 .marketing h2 {
   font-weight: normal;
 }
-/*.marketing .col-lg-4 p {
+.marketing .col-lg-4 p {
   margin-right: 10px;
   margin-left:  10px;
-} */
+}
 
-.rosita {
-  background-color: #c91ede;
+/*.rosita {
+  color: #c91ede;
+}*/
+
+.featurette-heading {
+  color: #c91ede;
+}
+
+.text-muted {
+  color: #000000;
 }
 
 .blanco {
@@ -116,6 +134,10 @@ body {
   margin-left: 0px;
   margin-right: 0px;
   margin-bottom: 0px;
+}
+
+.img-circle {
+  border:4px solid #c91ede;
 }
 
 /* Featurettes
@@ -142,8 +164,8 @@ body {
     margin-top: 0px;
   }
   .navbar-wrapper{
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 0px;
+    padding-left: 0px;
   }
   .navbar-wrapper .navbar {
     padding-right: 0;
@@ -152,7 +174,7 @@ body {
 
   /* The navbar becomes detached from the top, so we round the corners */
   .navbar-wrapper .navbar {
-    border-radius: 4px;
+    border-radius: 0px;
   }
 
   /* Bump up size of carousel content */
