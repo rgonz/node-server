@@ -68,7 +68,7 @@ ul.nav a:hover { color: #c91ede !important; }
 
 /* Carousel base class */
 .carousel {
-  height: 500px;
+  height: 800px;
   /*margin-top: 50px;
   margin-bottom: 60px;*/
 }
@@ -79,7 +79,7 @@ ul.nav a:hover { color: #c91ede !important; }
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-  height: 500px;
+  height: 800px; /*500*/
   background-color: #777;
 }
 .carousel-inner > .item > img {
@@ -87,7 +87,7 @@ ul.nav a:hover { color: #c91ede !important; }
   top: 0;
   left: 0;
   min-width: 100%;
-  height: 500px;
+  height: 800px;
 }
 
 
@@ -108,9 +108,9 @@ ul.nav a:hover { color: #c91ede !important; }
   margin-left:  10px;
 }
 
-/*.rosita {
+.rosita {
   color: #c91ede;
-}*/
+}
 
 .featurette-heading {
   color: #c91ede;
@@ -193,4 +193,9 @@ ul.nav a:hover { color: #c91ede !important; }
   .featurette-heading {
     margin-top: 120px;
   }
+}
+
+.logo-size {
+  height: 150px;
+  width: 600px;
 }
