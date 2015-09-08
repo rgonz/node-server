@@ -199,3 +199,19 @@ ul.nav a:hover { color: #c91ede !important; }
   height: 150px;
   width: 600px;
 }
+
+  /* Additional pages */
+
+.historia-img {
+  height: 800px;
+  width: 4000px;
+}
+
+.historia-txt {
+  font-size: 20px;
+}
+
+#calendar {
+	width: 100%;
+	margin: 0 auto;
+}
