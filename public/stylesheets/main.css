@@ -68,7 +68,7 @@ ul.nav a:hover { color: #c91ede !important; }
 
 /* Carousel base class */
 .carousel {
-  height: 800px;
+  height: 480px;
   /*margin-top: 50px;
   margin-bottom: 60px;*/
 }
@@ -79,7 +79,7 @@ ul.nav a:hover { color: #c91ede !important; }
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-  height: 800px; /*500*/
+  height: 480px; /*500*/
   background-color: #777;
 }
 .carousel-inner > .item > img {
@@ -87,7 +87,7 @@ ul.nav a:hover { color: #c91ede !important; }
   top: 0;
   left: 0;
   min-width: 100%;
-  height: 800px;
+  height: 480px;
 }
 
 
