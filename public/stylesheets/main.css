@@ -203,15 +203,10 @@ ul.nav a:hover { color: #c91ede !important; }
   /* Additional pages */
 
 .historia-img {
-  height: 800px;
+  height: 480px;
   width: 4000px;
 }
 
 .historia-txt {
   font-size: 20px;
-}
-
-#calendar {
-	width: 100%;
-	margin: 0 auto;
 }
