@@ -108,6 +108,10 @@ ul.nav a:hover { color: #c91ede !important; }
   margin-left:  10px;
 }
 
+.navbar-inverse .navbar-toggle {
+  background-color: #c91ede;
+}
+
 .rosita {
   color: #c91ede;
 }
