@@ -1,16 +1,22 @@
-/* Javascript */
-$(function () {
-	var date = new Date();
-	var d = date.getDate();
-	var m = date.getMonth();
-	var y = date.getFullYear();
+function getHTML(page) {
+  $.get(page, function(html) {
+    $(".main-container").empty();
+    $(".main-container").append(html);
+  });
+}
 
-	$('#calendar').fullCalendar({
-		header: {
-			left: 'prev,next today',
-			center: 'title',
-			right: 'month,agendaWeek,agendaDay'
-		},
-		editable: true
-	});
+$(document).ready(function(){
+    getHTML('inicio.html');
+  $("#inicio-link").on("click", function() {
+    getHTML('inicio.html');
+  });
+  $("#nosotros-link").on("click", function() {
+    getHTML('nosotros.html');
+  });
+  $("#orderna-online-link").on("click", function() {
+    getHTML('ordena-online.html');
+  });
+  $("#conectate-link").on("click", function() {
+    getHTML('conectate.html');
+  });
 });
