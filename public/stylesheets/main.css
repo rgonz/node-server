@@ -112,6 +112,10 @@ ul.nav a:hover { color: #c91ede !important; }
   background-color: #c91ede;
 }
 
+a:visited {
+   color: #000000 ;
+}
+
 .rosita {
   color: #c91ede;
 }
