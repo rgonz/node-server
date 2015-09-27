@@ -7,10 +7,10 @@ function getHTML(page) {
 
 $(document).ready(function(){
     $("footer").show();
-    getHTML('inicio.html');
-  $("#inicio-link").on("click", function() {
+    getHTML('blog.html');
+  $("#blog-link").on("click", function() {
     $("footer").show();
-    getHTML('inicio.html');
+    getHTML('blog.html');
   });
   $("#nosotros-link").on("click", function() {
     $("footer").show();
